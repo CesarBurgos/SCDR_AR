@@ -1,0 +1,8 @@
+path: ../train_data  # dataset root dir
+train: ../train_data/images/train/  # train images (relative to 'path') 128 images
+val: ../train_data/images/val/  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 11  # number of classes
+names: ['DIP','PIP2','PIP3','PIP4','PIP5','MCP1','MCP2','MCP3','MCP4','MCP5','CMC']  # class names
